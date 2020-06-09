@@ -282,6 +282,10 @@ section {
   overflow: hidden;
 }
 
+section#porta {
+  padding: 0px 0 !important;
+}
+
 .section-bg {
   background: #f4fff5;
 }
@@ -523,7 +527,15 @@ hr {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
-/*.portfolio .portfolio-item {
+.galeria {
+  width: 300px;
+  height: 400px;
+  margin-bottom: 30px; 
+  object-fit: cover;
+  filter: brightness(90%)
+}
+
+.portfolio .portfolio-item {
   margin-bottom: 30px;
 }
 
@@ -532,7 +544,7 @@ hr {
   margin: 0 auto 35px auto;
   list-style: none;
   text-align: center;
-  background: #fff;
+  background: #dffde2;
   border-radius: 50px;
   padding: 2px 15px;
 }
@@ -551,7 +563,7 @@ hr {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #149ddd;
+  color: teal;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -594,17 +606,17 @@ hr {
   color: #fff;
   font-size: 28px;
   text-align: center;
-  background: rgba(20, 157, 221, 0.75);
+  background: rgba(0, 128, 128, 0.75);
   transition: 0.3s;
   width: 50%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: rgba(20, 157, 221, 0.95);
+  background: rgba(0, 128, 128, 0.95);
 }
 
 .portfolio .portfolio-wrap .portfolio-links a + a {
-  border-left: 1px solid #37b3ed;
+  border-left: 1px solid teal;
 }
 
 .portfolio .portfolio-wrap:hover::before {
